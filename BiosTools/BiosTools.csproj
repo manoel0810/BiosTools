@@ -53,5 +53,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="External\bios_size.c" />
+    <Content Include="External\Load the BIOS into memory model 2.asm" />
+    <Content Include="External\Load the BIOS into memory.asm" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
